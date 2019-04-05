@@ -11,7 +11,7 @@
 			margin: 50px auto;
 			padding: 20px;
 			position: relative;
-			background: #fff;
+			background: light yellow;
 			border: 1px solid yellow;
 			-moz-border-radius: 10px;
 			-webkit-border-radius: 10px; 
@@ -76,9 +76,9 @@
 			border: 1px solid #aaa;
 			overflow: visible;
 			display: inline-block;
-			color: yellow;
+			color: cyan;
 			text-shadow: 0 -1px 0 rgba(0,0,0,.4);		  
-			background-color: cyan;
+			background-color: pink;
 			-webkit-transition: background-color .2s ease-out;
 			-moz-transition: background-color .2s ease-out;
 			-ms-transition: background-color .2s ease-out; 
