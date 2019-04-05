@@ -25,24 +25,19 @@
 			if (isset($data['operator'])) {
 
 				switch ($data['operator']) {
-				    case 'add':
+				    case '+':
 				        $this->operator = '+';
 				        break;
-				    case 'subtract':
+				    case '-':
 				        $this->operator = '-';
 				        break;
-				    case 'multiply':
+				    case '*':
 				        $this->operator = '*';
 				        break;
-				    case 'divide':
+				    case '/':
 				        $this->operator = '/';
 				        break;
-				    case 'logicalAnd':
-				        $this->operator = 'AND';
-				        break;
-				    case 'greaterThan':
-				        $this->operator = '>';
-				        break;
+				   
 				}
 
 			}			
@@ -75,33 +70,9 @@
 
 			}
 
-			if ($this->operator == "AND") {
+			
 
-				if ($this->a && $this->b) {
-
-					return "True";
-
-				} else {
-
-					return "False";
-
-				}
-
-			}
-
-			if ($this->operator == ">") {
-
-				if ($this->a > $this->b) {
-
-					return "True";
-
-				} else {
-
-					return "False";
-
-				}
-
-			}
+			
 
 		}
 
