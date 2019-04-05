@@ -24,9 +24,9 @@
 							<option value="divide">/</option>
 							
 						</select><br>
-						<label class="input_label" for="left_operand">First Number:</label>
+						<label class="input_label" for="left_operand">First Number:</label><br>
 						<input type="text" name="a" id="left_operand" required><br>
-						<label class="input_label" for="right_operand">Second Number:</label>
+						<label class="input_label" for="right_operand">Second Number:</label><br>
 						<input type="text" name="b" id="right_operand" required><br>
 						<button id="calculate" type="submit">Calculate</button>
 					</form>                    
