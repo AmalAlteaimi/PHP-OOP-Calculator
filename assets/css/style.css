@@ -1,6 +1,6 @@
 
 		body { 
-			background: #ddd; 
+			background: pink; 
 		}
 
 		/*------------------------------*/
@@ -12,7 +12,7 @@
 			padding: 20px;
 			position: relative;
 			background: #fff;
-			border: 1px solid #ccc;
+			border: 1px solid yellow;
 			-moz-border-radius: 10px;
 			-webkit-border-radius: 10px; 
 			border-radius: 10px;  
@@ -40,7 +40,7 @@
 			width: 200px;
 			-moz-box-sizing: border-box;
 			box-sizing: border-box;
-			border: 1px solid #aaa;
+			border: 1px solid white;
 			-moz-border-radius: 3px;
 			-webkit-border-radius: 3px;
 			border-radius: 3px;
@@ -52,7 +52,7 @@
 			width: auto;
 			-moz-box-sizing: border-box;
 			box-sizing: border-box;
-			border: 1px solid #aaa;
+			border: 1px solid white;
 			-moz-border-radius: 10px;
 			-webkit-border-radius: 10px;
 			border-radius: 10px;	
@@ -61,7 +61,7 @@
 
 		#calculator input:focus{
 			outline: 0;
-			border-color: #aaa;
+			border-color: white;
 			-moz-box-shadow: 0 2px 1px rgba(0, 0, 0, .3) inset;
 			-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .3) inset;
 			box-shadow: 0 2px 1px rgba(0, 0, 0, .3) inset;
@@ -75,9 +75,9 @@
 			border: 1px solid #aaa;
 			overflow: visible;
 			display: inline-block;
-			color: #000;
+			color: yellow;
 			text-shadow: 0 -1px 0 rgba(0,0,0,.4);		  
-			background-color: #fff;
+			background-color: cyan;
 			-webkit-transition: background-color .2s ease-out;
 			-moz-transition: background-color .2s ease-out;
 			-ms-transition: background-color .2s ease-out; 
